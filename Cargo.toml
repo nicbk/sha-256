@@ -1,0 +1,6 @@
+[package]
+name = "sha_256"
+version = "0.1.0"
+authors = ["xrop <xrop@xrop.me>"]
+edition = "2018"
+license = "Unlicense"
