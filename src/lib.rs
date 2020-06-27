@@ -48,7 +48,7 @@ impl Sha256 {
 }
 
 fn sha256(inp: &[u8]) -> Result<[u32; 8], HashError> {
-    if inp.len() > 1 << 61 {
+    if inp.len() > 1 << 60 {
         return Err(HashError::DataTooLarge);
     }
 
